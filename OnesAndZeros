@@ -1,0 +1,15 @@
+// Given an array, convert the values in the array into an integer
+// [0,0,0,1] => 1
+
+const binaryArrayToNumber = arr => {
+  for(let i=0; i < arr.length; i++) {
+    if(arr[i] > 1){
+      return "error"
+    }}if(arr.length <= 0 || typeof arr === "string"){
+      return "error"
+    }else{
+      str =""
+      arr.forEach(n => str+=n)
+      return parseInt(str, 2)
+    }
+};
