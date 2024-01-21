@@ -1,7 +1,8 @@
 //remove all vowels from strings
 
 function disemvowel(str) {
-    let answer = str.replace(/a|A|e|E|i|I|o|O|u|U/g, "")
+    let answer = str.replace(/[aeiou]/gi, "")
+    //i makes it case insensitive replace
     return answer;
 }
 
