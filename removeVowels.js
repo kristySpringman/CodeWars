@@ -1,9 +1,9 @@
 //remove all vowels from strings
 
 function disemvowel(str) {
-    let answer = str.replace(/[aeiou]/gi, "")
+    return str.replace(/[aeiou]/gi, "")
     //i makes it case insensitive replace
-    return answer;
+
 }
 
 console.log(disemvowel("This website is for losers LOL!"))
